@@ -5,8 +5,8 @@ import "./index.css";
 // Determine if shop is open
 const hour = new Date().getHours();
 const openHour = 10;
-const closeHour = 0;
-const isOpen = hour >= openHour && hour < closeHour;
+const closeHour = 22;
+const isOpen = false;
 
 // Header component
 function Header() {
