@@ -6,7 +6,7 @@ import "./index.css";
 const hour = new Date().getHours();
 const openHour = 10;
 const closeHour = 22;
-const isOpen = false;
+const isOpen = hour >= openHour && hour < closeHour;
 
 // Header component
 function Header() {
